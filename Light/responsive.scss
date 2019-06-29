@@ -1,6 +1,16 @@
     // responsiveness
 
     /* Smartphones (portrait and landscape) ----------- */
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after{
+    transition: all, 800ms !important;
+    transition: 0 !important;
+};
+
+
+
     @media (min-width : 320px) and (max-width : 480px) {
         /* Styles */
         html[data-theme = "dark"]{
@@ -136,11 +146,11 @@
         body{
             background: url(../Light/source/BackgroundImage/DarkThemeTablet.png);;
             background-size: cover;
-            background-repeat: no-repeat;
+            background-repeat: no-repeat; 
         }
     }
     body{
-        background: url(../Light/source/BackgroundImage/LightThemeTablet.png);;
+        background: url(../Light/source/BackgroundImage/LightThemeTablet.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
