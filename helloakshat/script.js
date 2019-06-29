@@ -6,14 +6,12 @@ checkbox.addEventListener("change",function(){
     {
         trans()
         document.documentElement.setAttribute("data-theme","dark");
-        imgLight.src = "../Light/source/BackgroundImage/darkOne.png";
+        imgLight.src = "source/BackgroundImage/darkOne.png"
     }
     else {
         trans()
         document.documentElement.setAttribute("data-theme","light")
-        imgLight.src = "../Light/source/BackgroundImage/LightOneWeb.png";
-        // imgDark.classList.add("hide");
-        // imgLight.classList.remove("hide");
+        imgLight.src = "source/BackgroundImage/LightOneWeb.png"
     }
 } );
 
